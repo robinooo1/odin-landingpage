@@ -1,12 +1,22 @@
-.body {
+body {
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
+    margin: 0;
 }    /* DELETE? */
 
 /* SECTION 1 */
+.sections {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .s1 {
     background-color: #1F2937;
+    padding: 150px;
+    padding-top: 10px;
 }
 
 .s1left {
@@ -16,6 +26,7 @@
 
 .s1p1 {
     display: flex;
+    margin-top: 80px;   
 }
 
 .header {
@@ -40,6 +51,12 @@
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.sectext {
+    text-wrap: balance;
+
+
 }
 
 .title {
@@ -93,5 +110,22 @@
 }
 
 /* SECTION 4 */
+.bluebox {
+    display: flex;
+    gap: 100px;
+    background-color: #3882F6;
+}
+
+.blueboxtext {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    margin-top: auto;
+}
+
 
 
