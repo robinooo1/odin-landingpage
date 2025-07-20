@@ -1,0 +1,97 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}    /* DELETE? */
+
+/* SECTION 1 */
+
+.s1 {
+    background-color: #1F2937;
+}
+
+.s1left {
+    display: flex;
+    flex-direction: column;
+}
+
+.s1p1 {
+    display: flex;
+}
+
+.header {
+    font-family: Roboto;
+    display: flex;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.link ,
+.sectext {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.s1image {
+    color: white;
+    padding: 20px;
+    background-color:#525252
+}
+
+/* SECTION 2 */
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.s2box {    /* CHANGE COLOR AND SHAPE*/
+    padding: 10px;
+    margin: 10px;
+    height: 10px;
+    background-color: blue;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.s2title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* Section 3 */
+
+.s3 {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1F2937;
+}
+
+/* SECTION 4 */
+
+
