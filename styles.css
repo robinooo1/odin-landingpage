@@ -3,9 +3,11 @@ body {
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
-}    /* DELETE? */
+    flex-wrap: wrap;
+}
 
 /* SECTION 1 */
+
 .sections {
     display: flex;
     min-height: 100vh;
@@ -22,6 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .s1left {
@@ -29,6 +32,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap: 10px;
 }
 
 .s1p1 {
@@ -94,6 +98,7 @@ button {
 }
 
 /* SECTION 2 */
+
 .s2 {
     height: 400px;
 }
@@ -105,13 +110,15 @@ button {
     align-items: center;
 }
 
-.s2box {    /* CHANGE COLOR AND SHAPE*/
+.s2box {   
     padding: 70px;
-    border: 100px;
-    background-color: #3882F6;
+    border: 5px;
+    background-color: white;
     border-radius: 20px;
     display: flex;
     width: 10px;
+    border-style: solid;
+    border-color: #3882F6;
 }
 
 .boxes {
@@ -136,11 +143,11 @@ button {
     margin-top: 30px;
 }
 
-/* Section 3 */
+/* SECTION 3 */
 
 .s3 {
     background-color: #E5E7EB;
-    padding: 100px;
+    padding: 150px;
 }
 
 .quote {
@@ -156,10 +163,18 @@ button {
 }
 
 /* SECTION 4 */
+
+.whiteback {
+    padding: 80px;
+}
+
 .bluebox {
     display: flex;
     gap: 100px;
     background-color: #3882F6;
+    padding: 60px;
+    border-radius: 10px;
+    justify-content: space-evenly;
 }
 
 .blueboxtext {
@@ -169,8 +184,25 @@ button {
 
 footer {
     background-color: #1F2937;
-    color: white;
+    color: #E5E7EB;
     margin-top: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#bluetitle {
+    color: #E5E7EB;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#blueinfo {
+     color: #E5E7EB;
+}
+
+.button2 {
+    width: 150px;
+    max-height: 40px;
 }
 
 
