@@ -94,22 +94,38 @@ button {
 }
 
 /* SECTION 2 */
+.s2 {
+    height: 400px;
+}
 
 .box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .s2box {    /* CHANGE COLOR AND SHAPE*/
-    padding: 10px;
-    margin: 10px;
-    height: 10px;
+    padding: 70px;
+    border: 100px;
     background-color: #3882F6;
+    border-radius: 20px;
+    display: flex;
+    width: 10px;
 }
 
 .boxes {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    margin: 20px;
+}
+
+.subtext {
+    width: 140px;
+    text-align: center;
 }
 
 .s2title {
@@ -117,18 +133,26 @@ button {
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    margin-top: 30px;
 }
 
 /* Section 3 */
 
 .s3 {
     background-color: #E5E7EB;
+    padding: 100px;
 }
 
 .quote {
     font-size: 36px;
     font-family: "light italic";
     color: #1F2937;
+    text-align: center;
+}
+
+.quoteby {
+    text-align: right;
+
 }
 
 /* SECTION 4 */
